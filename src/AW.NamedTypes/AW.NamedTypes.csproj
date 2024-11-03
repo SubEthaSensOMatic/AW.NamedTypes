@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <Description>AW.NamedTypes is a .NET library for managing and dynamically resolving types by name. It provides a registry that allows for registering types with custom names and resolving them back by name or type. This can be useful for plugins, dependency injection, and scenarios requiring dynamic type loading.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
