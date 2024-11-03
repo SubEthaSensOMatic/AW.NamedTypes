@@ -27,7 +27,7 @@ public record OrderCreatedEvent(Urn OrderId, ...);
 
 ...
 
-TypeRegistry.Instance.Register(typeof(MyCustomClass), "order-created-event");
+TypeRegistry.Instance.Register(typeof(OrderCreatedEvent), "order-created-event");
 
 ...
 ```
